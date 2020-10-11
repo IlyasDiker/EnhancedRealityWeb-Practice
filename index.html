@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilyas SandBox</title>
+    <script src="https://kit.fontawesome.com/097cd24b76.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="//cdn.jsdelivr.net/npm/less" ></script>
+</head>
+<body>
+    <div class="content">
+        <div class="nav">
+            <h2>Ilyas Benhssine</h2>
+            <a class="btn" href="https://github.com/IlyasDiker"><i class="fab fa-github"></i> My Github</a>
+        </div>
+        <div class="main">
+            <h1>Enhanced Reality<br>SandBox.</h1>
+        </div>
+        <div class="sec">
+            <p class="lt">Astronaut</p>
+            <model-viewer class="model-viewer" src="models/astronaut/Astronaut.gltf" auto-rotate camera-controls ar ios-src="models/astronaut/Astronaut.usdz"></model-viewer>
+        </div>
+        <div class="sec">
+            <p class="lt">Porche 911</p>
+            <model-viewer class="model-viewer" src="models/car/model.gltf" auto-rotate camera-controls ar ios-src="models/car/model.usdz"></model-viewer>
+        </div>
+        
+    </div>
+    <div class="sec-tr">
+        <div class="content">
+            <p class="lt">Virtual tour</p>
+        </div>
+            
+    </div>
+    
+</body>
+</html>
