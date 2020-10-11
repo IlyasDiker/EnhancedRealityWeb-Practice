@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@darkbg: #1d3557;
+@midbg: #457b9d;
+@lightbg: #a8dadc;
+@white: #f1faee;
+@red: #e63946;
+@redl: #ef233c;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: @darkbg;
+    color: @white;
+}
+
+.content{
+    width: 800px;
+    margin: 20px auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-viewer{
+    width: 750px;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: @white;
+    background-color: @red;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    background-color: @redl;
+}
+.lt{
+    font-size: 28px;
+}
+
+.sec{
+    background-color: @midbg;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0  20px 0;
+}
+.sec-tr{
+    padding: 30px;
+    background-color: @lightbg;
+    color: @darkbg;
+}
+
+@media only screen and (max-width: 850px) {
+    .content{
+        width: 90%;
+    }
+    .model-viewer{
+        width: 90%;
+    }
+  }
